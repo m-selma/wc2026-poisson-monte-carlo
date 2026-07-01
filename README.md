@@ -3,7 +3,7 @@
 
 **Author:** Selma Marrakchi  
 **Published:** June 2026  
-**Companion article:** 
+**Companion article:** https://medium.com/@selma.marrakchi/probabilistic-outcome-prediction-with-poisson-regression-and-monte-carlo-methods-c827fe9b3aeb
 
 ---
 
