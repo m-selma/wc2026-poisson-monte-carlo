@@ -1,0 +1,1 @@
+# Probabilistic-Outcome-Prediction-with-Poisson-Regression-and-Monte-Carlo-Methods_FIFA-World-Cup-2026
