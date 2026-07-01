@@ -62,7 +62,7 @@ Kaggle. https://www.kaggle.com/datasets/afonsofernandescruz/2026-fifa-world-cup-
 ## Installation
 
 ```bash
-git clone https://github.com/selmamarrakchi/wc2026-poisson-monte-carlo.git
+git clone https://github.com/m-selma/wc2026-poisson-monte-carlo.git
 cd wc2026-poisson-monte-carlo
 pip install -r requirements.txt
 ```
