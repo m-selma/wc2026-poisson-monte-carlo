@@ -2,8 +2,8 @@
 ## Applied to the 2026 FIFA World Cup
 
 **Author:** Selma Marrakchi  
-**Published:** July 2026  
-**Companion article:** [Towards Data Science / Medium](#) *(link to be added upon publication)*
+**Published:** June 2026  
+**Companion article:** 
 
 ---
 
