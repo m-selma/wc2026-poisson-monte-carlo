@@ -51,12 +51,11 @@ def run_preprocessing(input_path: Path, output_path: Path) -> pd.DataFrame:
 
     Pipeline:
         1. Load raw CSV
-        2. Normalize column names
-        3. Filter to pre-tournament snapshots (<= June 10, 2026)
-        4. Retain most recent snapshot per team
-        5. Filter to 48 qualified teams
-        6. Derive offensive/defensive ratings from Elo
-        7. Validate and save
+        2. Filter to pre-tournament snapshots (<= June 10, 2026)
+        3. Retain most recent snapshot per team
+        4. Filter to 48 qualified teams
+        5. Derive offensive/defensive ratings from Elo
+        6. Validate and save
     """
     print(f"\n{'='*55}")
     print("  Preprocessing: 2026 FIFA World Cup Elo Ratings")
@@ -74,7 +73,7 @@ def run_preprocessing(input_path: Path, output_path: Path) -> pd.DataFrame:
 
     # Show sample
     print("\nSample (top 8 by Elo):")
-    print(df.nlargest(8, 'elo')[['name', 'elo', 'off', 'def']].to_string(index=False))
+    print(df.nlargest(8, 'rating')[['country', 'rating', 'off', 'def']].to_string(index=False))
 
     # Save
     output_path.parent.mkdir(exist_ok=True)
